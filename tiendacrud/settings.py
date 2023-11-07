@@ -26,9 +26,6 @@ SECRET_KEY = 'django-insecure-j&eq%2t6=5@^ohjs@yj3=ac33%k#1%kyzj+kr#b*uyiwrufkht
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-CORS_ALLOW_ALL_ORIGINS = True 
-
-
 ALLOWED_HOSTS = ['mi-tienda-cruddb-59f6b4071db5.herokuapp.com']
 
 
@@ -42,7 +39,6 @@ INSTALLED_APPS = [
     'django.contrib.messages',
     'django.contrib.staticfiles',
     'producto',
-    'corsheaders',
 ]
 
 MIDDLEWARE = [
@@ -54,8 +50,6 @@ MIDDLEWARE = [
     'django.contrib.messages.middleware.MessageMiddleware',
     'django.middleware.clickjacking.XFrameOptionsMiddleware',
     'whitenoise.middleware.WhiteNoiseMiddleware',
-    'django.middleware.security.SecurityMiddleware',
-    'corsheaders.middleware.CorsMiddleware',
 ]
 
 ROOT_URLCONF = 'tiendacrud.urls'
