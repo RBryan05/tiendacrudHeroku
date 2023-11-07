@@ -28,9 +28,6 @@ DEBUG = True
 
 CORS_ALLOW_ALL_ORIGINS = True 
 
-LOGIN_URL = '/'  # Reemplaza con la ruta correcta
-LOGIN_REDIRECT_URL = '/'  # Reemplaza con la ruta correcta
-
 
 ALLOWED_HOSTS = ['mi-tienda-cruddb-59f6b4071db5.herokuapp.com']
 
